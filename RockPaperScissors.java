@@ -8,8 +8,7 @@
 import java.util.Scanner;
 
 public class RockPaperScissors {
-    
-    //Constants for the choices and who wins
+  
     final static int ROCK = 0; 
     final static int PAPER = 1; 
     final static int SCISSORS = 2;
@@ -24,8 +23,7 @@ public class RockPaperScissors {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in); 
         int gameNum = 0; 
-        
-        //getting the round total
+      
         System.out.println("========================================================================================\n");
         System.out.println("This program will allow you to play a game of Rock, Paper, Scissors with the computer.");
         System.out.println("\n========================================================================================\n");
@@ -36,20 +34,16 @@ public class RockPaperScissors {
         System.out.println("\nEach item has a number attached. You will need to use that number to choose that item.\n"); 
         gameTime(gameNum);
         results(); 
-        
-    } //end of Main method
+    }
     
-    
-    //getting the computer selection by using the .random() function and return the number
-    public static int ComputerSelection() {
+    public static int computerSelection() {
         double random; 
         
         random = Math.random(); 
         random *= 3; 
         return (int)random;
     }
-    
-    //method to decided the winner of each round
+        
     public static int game(int user, int computer) {
         if (computer == ROCK) { 
             if (user == PAPER) return USERWIN;
@@ -68,13 +62,11 @@ public class RockPaperScissors {
     
     public static void gameTime(int gameNum) {
         Scanner keyboard = new Scanner(System.in); 
-        
-        //variables for the game total, results, and win totals for user and computer
+
         int gameResult = 0; 
         int computer = 0;
         int user = 0; 
-        
-        //strings for choices, winning, losing, tied
+
         String userSelection = "Rock(0), Paper(1), Scissors(2): ";
         String userWin = "You won the round!"; 
         String userLose = "You lost the round."; 
@@ -83,7 +75,7 @@ public class RockPaperScissors {
         while (userCount < gameNum && computerCount < gameNum) {
             System.out.println(userSelection);
             user = keyboard.nextInt();
-            computer = ComputerSelection(); 
+            computer = computerSelection(); 
             
             gameResult = game(user, computer); 
             if (gameResult == USERWIN) {
@@ -114,7 +106,6 @@ public class RockPaperScissors {
     }
     
     public static void results() {
-        //if statement to display the results of the game 
         if (userCount > computerCount) {
             System.out.println("Congrats! You beat the computer with the score of " +userCount+ " to " +computerCount);
         } else if (userCount < computerCount) {
