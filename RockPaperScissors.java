@@ -1,5 +1,5 @@
 /**
---A program that plays the popular scissor-rock-paper game--
+--A program that allows the user to play Rock Paper Scissors with the computer--
         Author: James Hunter Smith
         Email: jsmith1863@kctcs.edu
         Last Changed: September 18, 2018
