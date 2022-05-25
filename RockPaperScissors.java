@@ -9,7 +9,6 @@ import java.util.Scanner;
 
 public class RockPaperScissors {
     
-    //Constants for the choices and who wins
     final static int ROCK = 0; 
     final static int PAPER = 1; 
     final static int SCISSORS = 2;
@@ -25,7 +24,6 @@ public class RockPaperScissors {
         Scanner keyboard = new Scanner(System.in); 
         int gameNum = 0; 
         
-        //getting the round total
         System.out.println("========================================================================================\n");
         System.out.println("This program will allow you to play a game of Rock, Paper, Scissors with the computer.");
         System.out.println("\n========================================================================================\n");
