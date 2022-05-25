@@ -33,5 +33,6 @@ many rounds the user and computer won.
 |   1   | [Bookstore](https://github.com/JamesSmith232/BookStore)                                                   | [James Smith](https://github.com/JamesSmith232)   |
 |   2   | [FizzBuzz](https://github.com/JamesSmith232/FizzBuzz)                                                     | [James Smith](https://github.com/JamesSmith232)   |
 |   3   | [RockPaperScissors](https://github.com/JamesSmith232/RockPaperScissors)                                   | [James Smith](https://github.com/JamesSmith232)   |
+|   4   | [Grader](https://github.com/JamesSmith232/Grader)                                                         | [James Smith](https://github.com/JamesSmith232)   |
 
 
