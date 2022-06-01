@@ -31,8 +31,9 @@ many rounds the user and computer won.
 |  Num  | Project                                                                                                 | Author                                            |
 | ----- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------|
 |   1   | [Bookstore](https://github.com/JamesSmith232/BookStore)                                                 | [James Smith](https://github.com/JamesSmith232)   |
-|   2   | [FizzBuzz](https://github.com/JamesSmith232/FizzBuzz)                                                   | [James Smith](https://github.com/JamesSmith232)   |
-|   3   | [RockPaperScissors](https://github.com/JamesSmith232/RockPaperScissors)                                 | [James Smith](https://github.com/JamesSmith232)   |
-|   4   | [Grader](https://github.com/JamesSmith232/Grader)                                                       | [James Smith](https://github.com/JamesSmith232)   |
-|   5   | [StoreManager](https://github.com/JamesSmith232/StoreManager)                                           | [James Smith](https://github.com/JamesSmith232)   |
-|   6   | [TicTacToe](https://github.com/JamesSmith232/TicTacToe)                                                 | [James Smith](https://github.com/JamesSmith232)   |
+|   2   | [Lottery](https://github.com/JamesSmith232/Lottery)                                                     | [James Smith](https://github.com/JamesSmith232)   |
+|   3   | [FizzBuzz](https://github.com/JamesSmith232/FizzBuzz)                                                   | [James Smith](https://github.com/JamesSmith232)   |
+|   4   | [RockPaperScissors](https://github.com/JamesSmith232/RockPaperScissors)                                 | [James Smith](https://github.com/JamesSmith232)   |
+|   5   | [Grader](https://github.com/JamesSmith232/Grader)                                                       | [James Smith](https://github.com/JamesSmith232)   |
+|   6   | [StoreManager](https://github.com/JamesSmith232/StoreManager)                                           | [James Smith](https://github.com/JamesSmith232)   |
+|   7   | [TicTacToe](https://github.com/JamesSmith232/TicTacToe)                                                 | [James Smith](https://github.com/JamesSmith232)   |
